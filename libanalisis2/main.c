@@ -1,5 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/cFiles/file.c to edit this template
- */
+#include <stdio.h>
+#include "linear_fit.h"
 
+int main() {
+    int n;
+    printf("Ingrese el número de puntos de datos: ");
+    scanf("%d", &n);
+
+    double x[n], y[n];
+
+
+    return 0;
+}
