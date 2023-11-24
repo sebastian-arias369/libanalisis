@@ -8,14 +8,15 @@ int main() {
 
     double x[n], y[n];
 
- for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         printf("Ingrese el valor de x[%d]: ", i);
         scanf("%lf", &x[i]);
         printf("Ingrese el valor de y[%d]: ", i);
         scanf("%lf", &y[i]);
     }
 
-
+    double m, b;
+    linearFit(x, y, n, &m, &b);
 
     return 0;
 }
