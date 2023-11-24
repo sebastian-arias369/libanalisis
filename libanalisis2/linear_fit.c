@@ -18,6 +18,8 @@ void linearFit(double x[], double y[], int n, double* m, double* b) {
                i, x[i], y[i], x[i] * x[i], x[i] * y[i], sumX, sumY, sumXX, sumXY);
     }
 
+        *m = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+        *b = (sumY - *m * sumX) / n;
 
 }
 
