@@ -17,6 +17,10 @@ int main() {
 
     double m, b;
     linearFit(x, y, n, &m, &b);
+    
+    printf(" i     x[i]     y[i]   x[i]*x[i]  x[i]*y[i]    SumX      SumY     SumXX    SumXY\n");
+    printf("\nCoeficiente m (pendiente): %lf\n", m);
+    printf("Coeficiente b (intersección en el eje Y): %lf\n", b);
 
     return 0;
 }
