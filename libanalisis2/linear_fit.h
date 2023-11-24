@@ -3,4 +3,4 @@
 
 void linearFit(double x[], double y[], int n, double* m, double* b);
 
-#endif /* LINEAR_FIT_H
+#endif /* LINEAR_FIT_H */
